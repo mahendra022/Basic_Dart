@@ -14,6 +14,13 @@ class ques {
   }
 }
 
+List<ques> quess = [
+  ques("Who actor to be spaider man in the film spider man home coming?",
+      "Tom Holland", "Tony Stark"),
+  ques(
+      "Who player football in juventus number 7?", "Cristiano Ronaldo", "Bape"),
+];
+
 String text1(String prompt) {
   print("$prompt");
 }
@@ -26,13 +33,6 @@ String text3() {
   var a = stdin.readLineSync();
   return a;
 }
-
-List<ques> quess = [
-  ques("Who actor to be spaider man in the film spider man home coming?",
-      "Tom Holland", "Tony Stark"),
-  ques(
-      "Who player football in juventus number 7?", "Cristiano Ronaldo", "Bape"),
-];
 
 void main() {
   for (ques que in quess) {
