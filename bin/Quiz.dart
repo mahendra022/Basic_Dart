@@ -1,7 +1,5 @@
 import 'dart:io';
 
-import 'application_quiz.dart';
-
 class ques {
   String quess;
   String answer;
@@ -36,8 +34,8 @@ String text3() {
 
 void main() {
   for (ques que in quess) {
-    String quess = text1(que.quess);
-    String weAnswer = text2(que.answer, que.wanswer);
+    text1(que.quess);
+    text2(que.answer, que.wanswer);
     String userAnswer = text3();
     if (userAnswer == que.answer) {
       print("Corret!!");
