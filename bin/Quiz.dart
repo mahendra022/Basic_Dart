@@ -38,7 +38,7 @@ void main() {
     text2(que.answer, que.wanswer);
     String userAnswer = text3();
     if (userAnswer == que.answer) {
-      print("Corret!!");
+      print("Correct!!");
     } else {
       print("Your answer incorrect!!");
     }
