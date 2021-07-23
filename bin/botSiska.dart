@@ -15,4 +15,7 @@ void main() {
   teledart
       .onCommand('dart')
       .listen(((message) => teledart.replyMessage(message, 'Flutter')));
+  teledart
+      .onCommand('calcu')
+      .listen(((message) => teledart.replyMessage(message, 'show calculator')));
 }
